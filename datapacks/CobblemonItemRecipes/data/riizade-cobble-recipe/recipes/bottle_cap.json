@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ddd",
+        "dad",
+        "ddd"
+    ],
+    "key": {
+        "d": {
+            "item": "minecraft:diamond"
+        },
+        "a": {
+            "tag": "cobblemon:apricorns"
+        }
+    },
+    "result":
+    {
+        "item": "unimplemented_items:bottle_cap",
+        "count": 1
+    }
+}

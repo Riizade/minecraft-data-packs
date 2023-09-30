@@ -1,0 +1,14 @@
+{
+    "pack": {
+      "pack_format": 10,
+      "description": "Only allows generation 1 Pokemon to spawn"
+    },
+      "filter": {
+        "block": [
+          {
+            "namespace": "cobblemon",
+            "path": "spawn_pool_world"
+          }
+        ]
+      }
+   }

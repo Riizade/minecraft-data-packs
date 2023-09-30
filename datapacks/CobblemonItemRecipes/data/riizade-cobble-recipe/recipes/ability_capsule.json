@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      "did",
+      "   "
+    ],
+    "key": {
+      "d": {
+        "item": "minecraft:diamond"
+      },
+      "i": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "unimplemented_items:ability_capsule",
+      "count": 1
+    }
+  }
