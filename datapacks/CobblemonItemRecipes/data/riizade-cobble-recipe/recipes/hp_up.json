@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      "rar",
+      "   "
+    ],
+    "key": {
+      "r": {
+        "item": "unimplemented_items:dry_root"
+      },
+      "a": {
+        "item": "cobblemon:black_apricorn"
+      }
+    },
+    "result": {
+      "item": "cobblemon:hp_up",
+      "count": 1
+    }
+  }
