@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    "gag",
+    " i "
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron"
+    },
+    "a": {
+      "item": "cobblemon:pink_apricorn"
+    },
+    "g": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "unimplemented_items:power_lens",
+    "count": 1
+  }
+}
