@@ -7,14 +7,14 @@
   ],
   "key": {
     "i": {
-      "item": "minecraft:iron"
+      "item": "minecraft:iron_ingot"
     },
     "a": {
-      "item": "cobblemon:red_apricorn"
+      "item": "cobblemon:green_apricorn"
     }
   },
   "result": {
-    "item": "unimplemented_items:power_bracer",
+    "item": "unimplemented_items:power_weight",
     "count": 1
   }
 }
