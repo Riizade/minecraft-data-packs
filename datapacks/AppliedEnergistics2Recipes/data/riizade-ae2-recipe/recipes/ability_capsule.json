@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      "qqq",
+      "   "
+    ],
+    "key": {
+      "q": {
+        "item": "ae2:certus_quartz_crystal"
+      }
+    },
+    "result": {
+      "item": "ae2:guide",
+      "count": 1
+    }
+  }
