@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  i",
+      "aca",
+      "i  "
+    ],
+    "key": {
+      "i": {
+        "item": "minecraft:iron_ingot"
+      },
+      "a": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "c": {
+        "item": "minecraft:copper_ingot"
+      }
+
+    },
+    "result": {
+      "item": "cobblemon:link_cable",
+      "count": 1
+    }
+  }
