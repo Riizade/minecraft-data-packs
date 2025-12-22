@@ -4,7 +4,7 @@
 	"icon": {
 		"type": "item",
 		"data": {
-			"item": "diamond_pickaxe"
+			"item": "iron_pickaxe"
 		}
 	},
 	"background": "textures/gui/advancements/backgrounds/stone.png"

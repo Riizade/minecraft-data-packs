@@ -1,19 +1,19 @@
 {
-	"fortune+0.1": {
-		"title": "+0.1 Fortune",
+	"knockback+0.2": {
+		"title": "+5% knockback",
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "diamond"
+				"item": "golden_axe"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.fortune",
-					"value": 0.1,
-					"operation": "addition"
+					"attribute": "puffish_skills:knockback",
+					"value": 0.05,
+					"operation": "multiply_base"
 				}
 			}
 		],
@@ -21,7 +21,51 @@
 			"icon": "mftttesk2hpi8hy6"
 		}
 	},
-	"mining_speed+3%": {
+	"axe_speed+7.5%": {
+		"title": "+5% Axe Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_axe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:axe_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "b462sdwicw5ase0f"
+		}
+	},
+	"root_axe_speed+5%": {
+		"title": "+5% Axe Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_axe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:axe_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "z16bs2lof6t76yft"
+		}
+	},
+	"+3%mining_speed": {
 		"title": "+3% Mining Speed",
 		"icon": {
 			"type": "effect",
@@ -33,58 +77,14 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.mining_speed",
+					"attribute": "puffish_attributes:mining_speed",
 					"value": 0.03,
 					"operation": "multiply_base"
 				}
 			}
 		],
 		"metadata": {
-			"icon": "b462sdwicw5ase0f"
-		}
-	},
-	"anvilrepaircost": {
-		"title": "-5% Anvil Cost",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "anvil"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:repair_cost",
-					"value": -0.95,
-					"operation": "multiply_base"
-				}
-			}
-		],
-		"metadata": {
 			"icon": "u6s6k97isrw8ubib"
-		}
-	},
-	"pickaxespeed+7.5": {
-		"title": "+5% Pickaxe Speed",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "diamond_pickaxe"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:pickaxe_speed",
-					"value": 0.05,
-					"operation": "multiply_base"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "rnb87sayqauu1fv9"
 		}
 	}
 }
