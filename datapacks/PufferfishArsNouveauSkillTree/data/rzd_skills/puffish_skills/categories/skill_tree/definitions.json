@@ -155,7 +155,7 @@
   },
   "dodge_large": {
     "title": "Elusive",
-    "description": "+15% Dodge Chance",
+    "description": "+25% Dodge Chance",
     "icon": {
       "type": "item",
       "data": {
@@ -167,7 +167,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:dodge_chance",
-          "value": 0.15,
+          "value": 0.25,
           "operation": "addition"
         }
       }
@@ -764,7 +764,7 @@
     "icon": {
       "type": "item",
       "data": {
-        "item": "diamond"
+        "item": "gold_ingot"
       }
     },
     "rewards": [
@@ -1052,7 +1052,7 @@
     "icon": {
       "type": "item",
       "data": {
-        "item": "golden_pickaxe"
+        "item": "cobblestone"
       }
     },
     "rewards": [
@@ -1492,7 +1492,7 @@
   },
   "melee_spec": {
     "title": "Warrior",
-    "description": "+100% Melee Damage\n-100% Ranged Damage\n-100%Magic Damage",
+    "description": "+100% Melee Damage\n-100% Ranged Damage\n-100% Spell Damage",
     "icon": {
       "type": "item",
       "data": {
