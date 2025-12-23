@@ -1403,12 +1403,6 @@
 		"y": -73.9008344562721,
 		"root": false
 	},
-	"iz363z34b1tjzll6": {
-		"definition": "block_reach",
-		"x": -288,
-		"y": -55.425625842204084,
-		"root": false
-	},
 	"dkdtwug6eyfst13y": {
 		"definition": "fall_reduction_small",
 		"x": -416,
@@ -1596,9 +1590,15 @@
 		"root": false
 	},
 	"wf6gtenvg9lk2nr5": {
-		"definition": "magic_spec",
+		"definition": "researcher",
 		"x": -128,
 		"y": -332.5537550532244,
+		"root": false
+	},
+	"tfwsdnaevlq6ebub": {
+		"definition": "oxygen_large",
+		"x": -288,
+		"y": -55.425625842204084,
 		"root": false
 	}
 }
