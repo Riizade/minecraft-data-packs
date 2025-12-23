@@ -33,12 +33,98 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_skills:player.resistance",
+          "attribute": "puffish_attributes:resistance",
           "value": 0.05,
-          "operation": "multiply_total"
+          "operation": "multiply_base"
         }
       }
     ],
+    "metadata": {
+      "icon": "8pfhrwoj26ehjkiq"
+    }
+  },
+  "resistance_large": {
+    "title": "+10% Resistance",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "resistance"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "metadata": {
+      "icon": "8pfhrwoj26ehjkiq"
+    }
+  },
+  "armor_small": {
+    "title": "+2 Armor",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "8pfhrwoj26ehjkiq"
+    }
+  },
+  "armor_large": {
+    "title": "+4 Armor, +1 Armor Toughness",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
     "metadata": {
       "icon": "8pfhrwoj26ehjkiq"
     }
@@ -55,12 +141,48 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_skills:player.melee_damage",
+          "attribute": "puffish_attributes:melee_damage",
           "value": 0.03,
           "operation": "multiply_total"
         }
       }
     ],
+    "metadata": {
+      "icon": "ndem887tiatg13uc"
+    }
+  },
+  "melee_damage_large": {
+    "title": "+10% Melee Damage, +1 Melee Damage",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "strength"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.1,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
     "metadata": {
       "icon": "ndem887tiatg13uc"
     }
@@ -77,12 +199,48 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_skills:player.ranged_damage",
+          "attribute": "puffish_attributes:ranged_damage",
           "value": 0.05,
           "operation": "multiply_total"
         }
       }
     ],
+    "metadata": {
+      "icon": "5si7qqqcgwprt47p"
+    }
+  },
+  "ranged_damage_large": {
+    "title": "+10% Ranged Damage, +1 Ranged Damage",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "bow"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.1,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
     "metadata": {
       "icon": "5si7qqqcgwprt47p"
     }
@@ -109,8 +267,36 @@
       "icon": "rx3l2clpqnf3h9kt"
     }
   },
+  "attack_speed_large": {
+    "title": "+15% Attack Speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "golden_sword"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.15,
+          "operation": "multiply_total"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "metadata": {
+      "icon": "rx3l2clpqnf3h9kt"
+    }
+  },
   "movement_speed_small": {
-    "title": "+5% Sprinting speed",
+    "title": "+5% Movement speed",
     "icon": {
       "type": "item",
       "data": {
@@ -121,7 +307,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:sprinting_speed",
+          "attribute": "minecraft:generic.movement_speed",
           "value": 0.05,
           "operation": "multiply_total"
         }
@@ -165,7 +351,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_skills:player.healing",
+          "attribute": "puffish_attributes:healing",
           "value": 0.05,
           "operation": "multiply_total"
         }
@@ -197,6 +383,34 @@
       "icon": "2or9cpb3codsu3dw"
     }
   },
+  "kb_res_complete": {
+    "title": "+100% Knockback Resistance",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "slowness"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "metadata": {
+      "icon": "2or9cpb3codsu3dw"
+    }
+  },
   "fortune_small": {
     "title": "+0.1 Fortune",
     "icon": {
@@ -209,7 +423,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_skills:player.fortune",
+          "attribute": "puffish_attributes:fortune",
           "value": 0.1,
           "operation": "addition"
         }
@@ -259,6 +473,42 @@
         }
       }
     ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "metadata": {
+      "icon": "rnb87sayqauu1fv9"
+    }
+  },
+  "pickaxe_speed_large": {
+    "title": "+10% Pickaxe Speed, +10% Mining Speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "diamond_pickaxe"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:pickaxe_speed",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      }
+    ],
     "metadata": {
       "icon": "rnb87sayqauu1fv9"
     }
@@ -275,7 +525,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_skills:knockback",
+          "attribute": "puffish_attributes:knockback",
           "value": 0.05,
           "operation": "multiply_base"
         }
@@ -297,12 +547,48 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_skills:axe_speed",
+          "attribute": "puffish_attributes:axe_speed",
           "value": 0.05,
           "operation": "multiply_base"
         }
       }
     ],
+    "metadata": {
+      "icon": "z16bs2lof6t76yft"
+    }
+  },
+  "axe_speed_large": {
+    "title": "+10% Axe Speed, +10% Mining Speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_axe"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:axe_speed",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
     "metadata": {
       "icon": "z16bs2lof6t76yft"
     }
@@ -319,12 +605,48 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_skills:shovel_speed",
+          "attribute": "puffish_attributes:shovel_speed",
           "value": 0.05,
           "operation": "multiply_base"
         }
       }
     ]
+  },
+  "shovel_speed_large": {
+    "title": "+10% Shovel Speed, +10% Mining Speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_shovel"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:shovel_speed",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "metadata": {
+      "icon": "z16bs2lof6t76yft"
+    }
   },
   "mining_speed_small": {
     "title": "+3% Mining Speed",
