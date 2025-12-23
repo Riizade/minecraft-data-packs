@@ -507,5 +507,24 @@
         }
       }
     ]
+  },
+  "block_reach": {
+    "title": "+1 Block Reach",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "fishing_rod"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:block_reach",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
   }
 }
