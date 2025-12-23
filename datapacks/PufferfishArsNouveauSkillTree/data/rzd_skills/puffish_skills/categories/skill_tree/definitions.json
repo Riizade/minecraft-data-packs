@@ -761,7 +761,7 @@
     "icon": {
       "type": "item",
       "data": {
-        "effect": "wooden_pickaxe"
+        "item": "wooden_pickaxe"
       }
     },
     "rewards": [
@@ -790,7 +790,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "ars_nouveau:ars_nouveau.perk.flat_max_mana",
+          "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
           "value": 0.05,
           "operation": "multiply_base"
         }
@@ -809,7 +809,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "ars_nouveau:ars_nouveau.perk.flat_max_mana",
+          "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
           "value": 0.15,
           "operation": "multiply_base"
         }
@@ -886,7 +886,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "ars_nouveau:ars_nouveau.perk.flat_max_mana",
+          "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
           "value": -0.4,
           "operation": "multiply_base"
         }
@@ -911,7 +911,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "ars_nouveau:ars_nouveau.perk.flat_max_mana",
+          "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
           "value": 0.5,
           "operation": "multiply_base"
         }
@@ -963,7 +963,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "forge:swim_speed",
+          "attribute": "neoforge:swim_speed",
           "value": 0.1,
           "operation": "multiply_base"
         }
@@ -1090,7 +1090,7 @@
     "icon": {
       "type": "effect",
       "data": {
-        "effect": "flying"
+        "effect": "apothic_attributes:flying"
       }
     },
     "rewards": [
@@ -1104,31 +1104,12 @@
       }
     ]
   },
-  "block_reach": {
-    "title": "+1 Block Reach",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "fishing_rod"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "forge:block_reach",
-          "value": 1.0,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
   "melee_spec": {
     "title": "Warrior",
     "description": "+100% Melee Damage, -100% Other Damage",
     "icon": {
       "type": "item",
-      "item": {
+      "data": {
         "item": "iron_helmet"
       }
     },
@@ -1170,7 +1151,7 @@
     "description": "+100% Spell Damage, -100% Other Damage",
     "icon": {
       "type": "item",
-      "item": {
+      "data": {
         "item": "ars_nouveau:arcanist_hood"
       }
     },
@@ -1212,7 +1193,7 @@
     "description": "+100% Ranged Damage, -100% Other Damage",
     "icon": {
       "type": "item",
-      "item": {
+      "data": {
         "item": "ars_nouveau:earth_hood"
       }
     },

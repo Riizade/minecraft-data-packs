@@ -1,9 +1,7 @@
 {
 	"pack": {
-		"pack_format": 57,
-		"supported_formats": [57, 999],
-		"min_format": 57,
-		"max_format": 999,
-		"description": "Adds default skill trees for Pufferfish's Skills mod."
+		"pack_format": 48,
+		"supported_formats": [48],
+		"description": "Skill trees using Pufferfish Skills to RZD's Ars Nouveau."
 	}
 }
