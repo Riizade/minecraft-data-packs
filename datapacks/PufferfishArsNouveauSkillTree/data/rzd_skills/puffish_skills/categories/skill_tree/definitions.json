@@ -21,6 +21,34 @@
       "icon": "qlnipwmjpxpgqsr9"
     }
   },
+  "health_large": {
+    "title": "+3 Hearts",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "health_boost"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 6,
+          "operation": "addition"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "metadata": {
+      "icon": "qlnipwmjpxpgqsr9"
+    }
+  },
   "resistance_small": {
     "title": "+5% Resistance",
     "icon": {
@@ -317,6 +345,34 @@
       "icon": "rnxej0zz7oyxkkip"
     }
   },
+  "movement_speed_large": {
+    "title": "+10% Movement speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "saddle"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.1,
+          "operation": "multiply_total"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "metadata": {
+      "icon": "rnxej0zz7oyxkkip"
+    }
+  },
   "luck_small": {
     "title": "+0.25 Luck",
     "icon": {
@@ -426,6 +482,36 @@
           "attribute": "puffish_attributes:fortune",
           "value": 0.1,
           "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "mftttesk2hpi8hy6"
+    }
+  },
+  "add_fortune_minus_speed": {
+    "title": "+1 Fortune, -75% Pickaxe Speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "diamond"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:pickaxe_speed",
+          "value": -0.75,
+          "operation": "multiply_base"
         }
       }
     ],
@@ -670,6 +756,28 @@
       "icon": "u6s6k97isrw8ubib"
     }
   },
+  "minus_mining_speed_small": {
+    "title": "-5% Mining Speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "effect": "wooden_pickaxe"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": -0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "u6s6k97isrw8ubib"
+    }
+  },
   "max_mana_small": {
     "title": "+5% Maximum Mana",
     "icon": {
@@ -689,6 +797,31 @@
       }
     ]
   },
+  "max_mana_large": {
+    "title": "+15% Maximum Mana",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "amethyst_shard"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ars_nouveau:ars_nouveau.perk.flat_max_mana",
+          "value": 0.15,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    }
+  },
   "mana_regen_small": {
     "title": "+5% Mana Regeneration",
     "icon": {
@@ -707,6 +840,97 @@
         }
       }
     ]
+  },
+  "mana_regen_large": {
+    "title": "+15% Mana Regeneration",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "soul_campfire"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+          "value": 0.15,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    }
+  },
+  "add_regen_minus_mana": {
+    "title": "+50% Mana Regeneration, -40% Maximum Mana",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "soul_campfire"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+          "value": 0.5,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ars_nouveau:ars_nouveau.perk.flat_max_mana",
+          "value": -0.4,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    }
+  },
+  "add_mana_minus_regen": {
+    "title": "+50% Maximum Mana, -40% Mana Regen",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "soul_campfire"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ars_nouveau:ars_nouveau.perk.flat_max_mana",
+          "value": 0.5,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+          "value": -0.4,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    }
   },
   "spell_damage_small": {
     "title": "+5% Spell Damage",
@@ -765,6 +989,31 @@
       }
     ]
   },
+  "sprinting_speed_large": {
+    "title": "+30% Sprinting Speed",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "speed"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sprinting_speed",
+          "value": 0.3,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    }
+  },
   "jump_small": {
     "title": "+5% Jump Height",
     "icon": {
@@ -784,8 +1033,33 @@
       }
     ]
   },
+  "jump_large": {
+    "title": "+20% Jump Height",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "jump_boost"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "value": 0.2,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    }
+  },
   "projectile_speed_small": {
-    "title": "+10% Projectile Speed",
+    "title": "+10% Arrow Speed",
     "icon": {
       "type": "item",
       "data": {
@@ -848,5 +1122,131 @@
         }
       }
     ]
+  },
+  "melee_spec": {
+    "title": "Warrior",
+    "description": "+100% Melee Damage, -100% Other Damage",
+    "icon": {
+      "type": "item",
+      "item": {
+        "item": "iron_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 1.0,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": -1.0,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+          "value": -1.0,
+          "operation": "multiply_total"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    }
+  },
+  "magic_spec": {
+    "title": "Mage",
+    "description": "+100% Spell Damage, -100% Other Damage",
+    "icon": {
+      "type": "item",
+      "item": {
+        "item": "ars_nouveau:arcanist_hood"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": -1.0,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": -1.0,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+          "value": 1.0,
+          "operation": "multiply_total"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    }
+  },
+  "ranged_spec": {
+    "title": "Archer",
+    "description": "+100% Ranged Damage, -100% Other Damage",
+    "icon": {
+      "type": "item",
+      "item": {
+        "item": "ars_nouveau:earth_hood"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": -1.0,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 1.0,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+          "value": -1.0,
+          "operation": "multiply_total"
+        }
+      }
+    ],
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    }
   }
 }
