@@ -2,7 +2,7 @@
   "experience_per_level": {
     "type": "expression",
     "data": {
-      "expression": "min(level ^ 1.432 + 10, 200)"
+      "expression": "min(level ^ 1.4 + 50, 300)"
     }
   },
   "sources": [
@@ -56,7 +56,7 @@
         "experience": [
           {
             "condition": "is_logs",
-            "expression": "5"
+            "expression": "10"
           }
         ]
       }

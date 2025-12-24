@@ -252,19 +252,19 @@
 		"root": false
 	},
 	"7qaeu62bdxr8r25i": {
-		"definition": "melee_damage_small",
+		"definition": "projectile_speed_small",
 		"x": 128,
 		"y": 110.85125168440814,
 		"root": false
 	},
 	"g8ow40l8bvugjmg0": {
-		"definition": "melee_damage_small",
+		"definition": "projectile_speed_small",
 		"x": 128,
 		"y": 147.8016689125442,
 		"root": false
 	},
 	"ay3y50ktd6fbdky5": {
-		"definition": "melee_damage_small",
+		"definition": "projectile_speed_small",
 		"x": 160,
 		"y": 129.32646029847615,
 		"root": false
@@ -324,19 +324,19 @@
 		"root": false
 	},
 	"5jbp86v9ya1mmeyv": {
-		"definition": "ranged_damage_small",
+		"definition": "health_small",
 		"x": -64,
 		"y": 73.9008344562721,
 		"root": false
 	},
 	"fxh2iy9nfbvzzus2": {
-		"definition": "ranged_damage_small",
+		"definition": "health_large",
 		"x": -32,
 		"y": 92.37604307034012,
 		"root": false
 	},
 	"v13ntmk26fqenpdl": {
-		"definition": "ranged_damage_small",
+		"definition": "health_small",
 		"x": -32,
 		"y": 55.42562584220407,
 		"root": false
@@ -963,24 +963,6 @@
 		"definition": "spell_damage_small",
 		"x": -192,
 		"y": -332.55375505322445,
-		"root": false
-	},
-	"fjd05zspr1qu9n40": {
-		"definition": "health_small",
-		"x": -128,
-		"y": -184.75208614068023,
-		"root": false
-	},
-	"crpufp0bgyxdli6e": {
-		"definition": "health_small",
-		"x": -128,
-		"y": -147.8016689125442,
-		"root": false
-	},
-	"51dkttc0vncjfw5j": {
-		"definition": "health_small",
-		"x": -96,
-		"y": -166.27687752661222,
 		"root": false
 	},
 	"b0e64j2o4tuwvewt": {
@@ -1773,6 +1755,66 @@
 		"definition": "slow_attack",
 		"x": -416,
 		"y": 277.1281292110203,
+		"root": false
+	},
+	"yh9c0131uze9hnje": {
+		"definition": "jump_small",
+		"x": -128,
+		"y": 0,
+		"root": false
+	},
+	"0bl1minmxhvn3b20": {
+		"definition": "fall_reduction_large",
+		"x": -96,
+		"y": -18.475208614068023,
+		"root": false
+	},
+	"bb8kda76ao5a89ld": {
+		"definition": "jump_small",
+		"x": -128,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"7p4w80e2wwqes5zw": {
+		"definition": "max_mana_small",
+		"x": 64,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"ai25c8mliewb9anm": {
+		"definition": "max_mana_small",
+		"x": 32,
+		"y": -92.37604307034012,
+		"root": false
+	},
+	"sa4qy24k7jv03tq5": {
+		"definition": "max_mana_small",
+		"x": 64,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"tiba5jutrswkh48m": {
+		"definition": "axe_speed_small",
+		"x": 160,
+		"y": -18.475208614068023,
+		"root": false
+	},
+	"ajvatqgaiewdg1zh": {
+		"definition": "pickaxe_speed_small",
+		"x": 128,
+		"y": 0,
+		"root": false
+	},
+	"4nho5kvqxgekrcvd": {
+		"definition": "shovel_speed_small",
+		"x": 96,
+		"y": -18.475208614068023,
+		"root": false
+	},
+	"vpqg2vs3gyhoiuu8": {
+		"definition": "mining_speed_small",
+		"x": 128,
+		"y": -36.95041722813605,
 		"root": false
 	}
 }

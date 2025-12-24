@@ -404,8 +404,7 @@
     }
   },
   "healing_received_small": {
-    "title": "Increased Healing",
-    "description": "+10% Healing Received",
+    "title": "+10% Healing Received",
     "icon": {
       "type": "effect",
       "data": {
