@@ -1305,7 +1305,7 @@
     ]
   },
   "swim_speed_small": {
-    "title": "+10% Swim Speed\n+10% Oxygen",
+    "title": "+10% Swim Speed and Oxygen",
     "icon": {
       "type": "effect",
       "data": {
