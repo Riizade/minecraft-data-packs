@@ -1756,5 +1756,23 @@
 		"x": 224,
 		"y": 387.97938089542845,
 		"root": false
+	},
+	"2o5xyjykzrndigpv": {
+		"definition": "melee_damage_small",
+		"x": -416,
+		"y": 314.07854643915636,
+		"root": false
+	},
+	"7sth2dsbzilepuu1": {
+		"definition": "melee_damage_small",
+		"x": -448,
+		"y": 295.6033378250884,
+		"root": false
+	},
+	"gcwyzs3w1fhkwkb8": {
+		"definition": "slow_attack",
+		"x": -416,
+		"y": 277.1281292110203,
+		"root": false
 	}
 }
