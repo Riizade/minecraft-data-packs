@@ -2,7 +2,7 @@
   "experience_per_level": {
     "type": "expression",
     "data": {
-      "expression": "min(level ^ 1.4 + 50, 300)"
+      "expression": "min(level ^ 1.65 + 150, 500)"
     }
   },
   "sources": [
@@ -324,11 +324,11 @@
           },
           {
             "condition": "!silk_touch & (coal_ore | copper_ore | iron_ore | gold_ore | redstone_ore | lapis_ore | diamond_ore | emerald_ore)",
-            "expression": "10"
+            "expression": "3"
           },
           {
             "condition": "!silk_touch & (deepslate_coal_ore | deepslate_copper_ore | deepslate_iron_ore | deepslate_gold_ore | deepslate_redstone_ore | deepslate_lapis_ore | deepslate_diamond_ore | deepslate_emerald_ore)",
-            "expression": "12"
+            "expression": "4"
           }
         ]
       }
